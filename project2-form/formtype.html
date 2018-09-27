@@ -1,0 +1,341 @@
+
+<html>
+    <head>
+        <title>
+            Welcome to Application Form
+        </title>
+        <style> 
+        h1{
+            background: linear-gradient(blue,white,green);
+            text-align: center;
+            padding:10px;
+        }
+        h2{
+            background: linear-gradient(powderblue,white,powderblue);
+            text-align: center;
+            padding:10px;
+        }
+        body{
+            font-family:"comic sans Ms",sans-serif;
+        }
+        form{
+            background-color: lightseagreen;
+            padding: 15px;
+            width: 400px;
+            border-radius: 15px;
+            box-shadow: 0 0 15px green;
+            
+        }
+        h3{
+            background: linear-gradient(green,black,green);
+            text-align: center;
+            padding:5px;
+            color: whitesmoke;
+        }
+        </style>
+    </head>
+    <body> 
+        <h1>Different Type Of Application Form</h1>
+        <h2>Application Form</h2><br>
+        <center>
+        <form style="text-align: center;">
+            <label for="user">Username</label>
+            <input type="text" id="user">
+            <br>
+            <label for="pass">Password</label>
+            <input type="password" id="pass">
+            <br>
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">     
+        </form>
+        </center>
+        <h2>Login form with Table</h2>
+        <center>
+        <form>
+            <table style="text-align: center;">
+                
+                <tr>
+                    <td>
+                        <label>Username</label>
+
+                    </td>
+                    <td><input type="text"></td>
+                </tr>
+
+<tr>
+                    <td>
+                        <label>password</label>
+
+                    </td>
+                    <td><input type="password" ></td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="submit">
+                        <input type="reset" value="reset">
+                    </td>
+                </tr>
+            </table>
+        </form>
+        </center>
+        <h2>Select box with Option</h2>
+        <center>
+        <form style="text-align: center;">
+            <label>Select a Language</label>
+            <select>
+            <option>HTML</option>
+            <option>CSS</option>
+            <option>Javascript</option>
+            <option>Bootstrap</option>
+            <option>Jauery</option>
+            <option>Angular JS</option>
+            </select>
+        </form>
+        </center>
+        <!-- select Box with optgroup-->
+        <h2>Select Box with optgroup</h2>
+        <center>
+        <form style="text-align: center;">
+            <label>Select a Technology</label>
+            <select>
+                <optgroup label="Language">
+                    <option>Java</option>
+                    <option>.Net</option>
+                    <option>PHP</option>
+                </optgroup>
+                <optgroup label="Scripts">
+                    <option>Javascript</option>
+                    <option>Shellscript</option>
+                </optgroup>
+                  </select>
+                 </form>
+                 </center>
+                 <h2>Textarea Box</h2>
+                 <center>
+                 <form style="text-align: center;">
+                 <label>Your Message</label>
+                 <textarea rows="7" cols="30"></textarea>
+                </form>
+                </center>
+                <h2>Datalist</h2>
+                <center>
+                <form style="text-align: center;">
+                    <label>Select a Technology</label>
+                    <input list="technologies">
+                    <datalist id="technologies">
+                        <option>HTML</option>
+                        <option>CSS</option>
+                        <option>Javascript</option>
+                        <option>Jauery</option>
+                        <option>Bootstrap</option>
+                        <option>Ajex</option>
+                        <option>Angular Js</option>
+                    </datalist>
+                </form>
+                </center>
+                <center>
+                <h2>URL LOGIN</h2>
+                <form>
+                 <label>URL</label>
+                 <input type="url">
+                 <input type="submit" value="submit">
+                </form>
+            </center>
+                <center>
+                        <h2>File Upload</h2>
+                        <form>
+                         <label>Upload</label>
+                         <input type="file">
+                         <input type="submit" value="Upload">
+                        </form>
+                </center>
+                <center>
+                        <h2>Search Any</h2>
+                        <form>
+                         <label>Search</label>
+                         <input type="search">
+                         <input type="submit" value="submit">
+                        </form>
+                </center>
+                <center>
+                        <h2>Hidden File</h2>
+                        <form>
+                         <label>Hidden</label>
+                         <input type="hidden">
+                        </form>
+                </center>
+                <center>
+                        <h2>Email Login</h2>
+                        <form>
+                         <label>Email</label>
+                         <input type="email">
+                         <input type="submit" value="submit">
+                        </form>
+                </center>
+                <center>
+                        <h2>Checkbox</h2>
+                        <form>
+                         
+                         <label>Select Your Hobbies</label><br>
+                         <input type="checkbox" value="Coding" name="box">Coding
+                         <input type="checkbox" value="Eating" name="box">Eating
+                         <input type="checkbox" value="Sleeping" name="box">Sleeping
+                        
+                        </form>
+                </center>          
+                <center>
+                        <h2>Radio Button</h2>
+                        <form>
+                         <input type="radio" name="gender" value="Male">Male<br>
+                        &nbsp;&nbsp; <input type="radio" name="gender" value="Female">Female
+                        </form>
+                </center> 
+                <center>
+                        <h2>Time Set</h2>
+                        <form>
+                         <label>Time</label>
+                         <input type="time">
+                        </form>
+                </center>   
+                <center>
+                        <h2>Date Set</h2>
+                        <form>
+                         <label>Date</label>
+                         <input type="date">
+                        </form>
+                </center>   
+                <center>
+                        <h2>DateTime-local Set</h2>
+                        <form>
+                         <label>Date-local</label>
+                         <input type="datetime-local">
+                        </form>
+                </center>
+                <center>
+                        <h2>Month Set</h2>
+                        <form>
+                         <label>Month</label>
+                         <input type="month">
+                        </form>
+                </center>
+                <center>
+                        <h2>Week Set</h2>
+                        <form>
+                         <label>Week</label>
+                         <input type="week">
+                        </form>
+                </center>
+                <center>
+                        <h2>Number Set</h2>
+                        <form>
+                         <label>Number</label>
+                         <input type="number" min="15" max="70" step="5">
+                         <input type="submit" value="submit">
+                        </form>
+                </center>
+                <center>
+                        <h2>Range Set</h2>
+                        <form>
+                         <label>Range</label>
+                         0<input type="range" min="0" max="100" id="form">100
+                         <button type="button" onclick="alert(document.querySelector('#form').Value">Get Value</button>
+                        </form>
+                </center>
+                <center>
+                        <h2>Color Set</h2>
+                        <form>
+                         <label>Color</label>
+                         <input type="color">
+                        </form>
+                </center>
+                <h3 align="center">HTML Input Attributes</h3>
+
+                <!-- Input Attribute Value -->
+                <center>
+    <h2>Input Attribute 'Value'</h2>
+    <form>
+        <label>User Name</label>
+        <input type="text" value="Naveen">
+    </form></center>
+
+    <!-- Input Attribute readonly -->
+    <center>
+    <h2>Input Attribute 'readonly'</h2>
+    <form>
+        <label>User Name</label>
+        <input type="text" value="Naveen" readonly>
+    </form>
+</center>
+    <!-- Input Attribute disabled -->
+    <center>
+    <h2>Input Attribute 'disabled'</h2>
+    <form>
+        <label>User Name</label>
+        <input type="text" value="Naveen" disabled>
+    </form></center>
+
+    <!-- Input Attribute size -->
+    <center>
+    <h2>Input Attribute 'size'</h2>
+    <form>
+        <label>User Name</label>
+        <input type="text" size="40">
+    </form>
+</center>
+    <!-- Input Attribute rows , cols -->
+    <center>
+    <h2>Input Attribute 'rows' , 'cols'</h2>
+    <form>
+        <label>Your Message</label>
+        <textarea rows="5" cols="30"></textarea>
+    </form></center>
+
+    <h3 align="center">HTML 5 Input Attributes</h3>
+
+
+    <!-- Input Attribute required -->
+    <center>
+    <h2>Input Attribute 'required'</h2>
+    <form>
+        <label>User Name *</label>
+        <input type="text" required>
+        <input type="submit" value="Submit">
+    </form></center>
+
+    <!--Input Attribute novalidate -->
+    <center>
+    <h2>Input Attribute 'novalidate'</h2>
+    <form novalidate>
+        <label>Enter Your Website</label>
+        <input type="url">
+        <input type="submit" value="Submit">
+    </form></center>
+
+    <!-- Input Attribute autofocus -->
+    <center>
+    <h2>Input Attribute 'autofocus'</h2>
+    <form>
+        <label>User Name</label>
+        <input type="text" autofocus>
+    </form></center>
+
+    <!-- Input Attribute pattern -->
+    <center>
+    <!-- http://html5pattern.com/ -->
+    <h2>Input Attribute 'pattern'</h2>
+    <form>
+        <label>Twitter User Name</label>
+        <input type="text" pattern="^[A-Za-z0-9_]{1,15}$">
+        <input type="submit" value="Submit">
+    </form></center>
+
+    <!-- Input Attribute placeholder -->
+    <center>
+    <h2>Input Attribute 'placeholder'</h2>
+    <form>
+        <input type="text" placeholder="Enter User Name">
+        <input type="submit" value="Submit">
+    </form></center>
+            <h1>Developed By Manzar Hussain&trade;</h1>  
+    </body>
+</html>
